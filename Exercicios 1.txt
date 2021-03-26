@@ -1,0 +1,131 @@
+# 1)
+print("Alo mundo")
+
+# 2) 
+num = input("Digite um número:")
+print("Seu numero foi %s" % (num))
+
+# 3)
+n1 = (int(input("Coloque um numero:")))
+n2 = (int(input("Coloque outro número:")))
+soma = (n + n2)
+print("Sua soma foi:%s" %(soma))
+'''
+# 4)
+n1 = int(input('Digite uma nota: '))
+n2 = int(input('Digite uma nota: '))
+n3 = int(input('Digite uma nota: '))
+n4 = int(input('Digite uma nota: '))
+media = (n1 + n2 + n3 + n4)/4
+
+print('A media é: %s' % (media))
+
+# 5)
+metros = (int(input("Coloque a medida em metros:")))
+cm = metros * 100
+print(cm)
+
+# 6) 
+r = (int(input("Coloque o raio de um circulo:")))
+r = r * r
+area = r * 3.14
+print("A area é:%s" %(area))
+
+# 7) 
+L = (int(input("Coloque o tamanho de um dos lados:")))
+A = L * L
+A = A * 2
+print('O dobro da area é: %s' % (A))
+
+# 8) 
+ganhoH = (int(input("Digite quantos vc ganha por hora:")))
+H = (int(input("Quantas horas vc trabalha no mes:")))
+salario = ganhoH * H
+print("Seu salario ganho no final do mes é:%s"%(salario))
+
+# 9) 
+F = int(input("Coloque a temperatura em Farenheit:"))
+C = 5*(F-32)/9
+print("A temperatura em Celsius é: %s"%(C))
+
+# 10) 
+C = int(input("Coloque a temperatura em Celsius:"))
+F = (C * 9/5) + 32
+print("A temperatura em Farenheit é: %s"%(F))
+
+# 11) 
+n1 = int(input("Coloque um numero inteiro:"))
+n2 = int(input("Coloque outro numero inteiro:"))
+n3 = float(input("Coloque um numero real:"))
+produto = ((i*2)+(i2/2))
+print(produto)
+soma = ((i*3)+r)
+print(soma)
+cubo = (r*r*r)
+print(cubo)
+
+# 12) 
+h = float(input('Digite a sua altura: '))
+P = (72.7 * h) - 58
+print('O seu peso ideal é: %s' % (P))
+
+# 13) 
+sexo = input('Digite seu sexo: ')
+h = float(input('Digite a sua altura: '))
+
+if sexo == "masculino":
+  P = (72.7 * h) - 58  
+  print('O seu peso ideal é: %s' % (P))
+elif sexo == "feminino":
+  P = (62.1 * h) - 44.7
+  print('O seu peso ideal é: %s' % (P))
+
+# 14) 
+peso = float(input('Digite o peso de peixes: '))
+
+multa = 0
+excesso = 0
+if peso > 50:
+  excesso = peso - 50
+  multa = excesso * 4
+else:
+  excesso = 50 - peso
+
+print('O excesso de peixes é: %s' % (excesso))
+print('O valor da multa a pargar é: %s' % (multa))
+
+# 15) 
+Qh = float(input('Digite quantos vc ganha por hora: '))
+H = int(input('Digite quantas horas vc trabalha por mês: '))
+
+sB = Qh * H
+IR  = (sB * 0.11)
+INSS = (sB * 0.08)
+sindicato = (sB * 0.05)
+descontos = IR + INSS + sindicato
+sL = sB - descontos
+
+print('O salario bruto é: %s' % (sB))
+print('Pagou ao INSS: %s' % (INSS))
+print('Pagou ao sindicato: %s' % (sindicato))
+print('O salario liquido é: %s' % (sL))
+
+# 16) 
+tamanho  = float(input('Digite o tamanho em metros quadrados para pintar: '))
+# Uma lata pinta 54m^2
+sobra = tamanho - 54
+Ql = 1
+custo = 80
+
+if tamanho > 54:
+  custo = custo + 80
+  Ql = Ql + 1
+  while sobra > 54:
+    custo = custo + 80
+    Ql = Ql + 1
+  print('A quantidade de latas é: %s' % (Ql))
+  print('O custo sera de: %sR$' % (custo))
+else:
+  print('A qunatidade de latas é: 1')
+  print('O custo sera de 80R$')
+  '''
